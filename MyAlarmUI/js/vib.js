@@ -47,7 +47,6 @@
 	 * application, this function will be called at first.
 	 */
 	function init() {
-		var i, repeatToggle;
 
 		window.addEventListener("tizenhwkey", keyEventHandler);
 		navigator.vibrate([ 1000, 500, 1000, 500 ]);
